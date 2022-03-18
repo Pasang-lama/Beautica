@@ -1,0 +1,84 @@
+footer {
+  ul {
+    list-style: none;
+    li {
+      padding: 0.4rem;
+      h4 {
+        margin-bottom: 2rem;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        &:hover {
+          text-decoration: underline;
+          color: white;
+        }
+      }
+    }
+  }
+}
+.social-media {
+  ul {
+    margin-left: -3rem;
+    list-style: none;
+    li {
+      display: inline;
+      a {
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        font-size: 2rem;
+        border-radius: 50%;
+        padding: 0.5rem 0.79rem;
+      }
+      &:hover {
+        .facebook {
+          background-color: #1b74e4;
+          color: white;
+        }
+        .twitter {
+          background-color: #5da9dd;
+          color: white;
+        }
+        .pint {
+          background-color: #b7081b;
+          color: white;
+        }
+        .insta {
+          background-color: #f14e42;
+          color: white;
+        }
+      }
+    }
+  }
+}
+.input-suscribe {
+  input {
+    width: 25rem;
+    height: 3.4rem;
+    font-size: 1rem;
+    background: black;
+    color: white;
+    border: solid white 0.14rem;
+    border-radius: 0.2rem 0rem 0rem 0.2rem;
+  }
+  button {
+    height: 3.409rem;
+    width: 10rem;
+    background: white;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    border: 0.17rem solid white;
+    border-radius: 0rem 0.2rem 0.2rem 0rem;
+  }
+}
+
+.payement-partner {
+  text-align: center;
+  i {
+    font-size: 5rem;
+    padding: 0.3rem;
+  }
+}

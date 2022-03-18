@@ -1,0 +1,105 @@
+.banner-slider {
+  &:hover {
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      display: inline-block;
+    }
+  }
+  .carousel {
+    position: relative;
+    .carousel-item {
+      .pup-up {
+        position: absolute;
+        bottom: 10rem;
+        left: 40rem;
+        .main-division {
+          height: 30rem;
+          width: 55rem;
+          text-align: center;
+          position: relative;
+          h1 {
+            font-size: 5rem;
+            font-weight: bold;
+            padding: 3rem;
+          }
+        }
+        .shop {
+          position: absolute;
+          left: 19rem;
+          bottom: -2rem;
+          width: 20rem;
+          height: 5rem;
+          background-color: black;
+          text-transform: uppercase;
+          text-align: center;
+          padding: 1rem;
+          color: white;
+          font-size: 2rem;
+          font-weight: bolder;
+          border: none;
+          &:hover {
+            background-color: #e7040f;
+          }
+        }
+      }
+
+      .description {
+        padding: 2rem;
+        width: 40rem;
+        position: absolute;
+        left: 75rem;
+        bottom: 15rem;
+        h1 {
+          font-size: 4rem;
+          font-weight: bolder;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+        p {
+          margin: 2rem 0rem;
+          text-align: center;
+          font-size: 2rem;
+          line-height: 3rem;
+          color: rgb(37, 30, 30);
+        }
+        button {
+          color: white;
+          background-color: black;
+          padding: 1rem;
+          width: 20rem;
+          border: none;
+          display: flex;
+          justify-content: center;
+          &:hover {
+            background-color: #e7040f;
+          }
+        }
+      }
+    }
+    img {
+      height: 50rem;
+    }
+    margin-top: -0.5rem;
+    .carousel-indicators [data-bs-target] {
+      border-radius: 50%;
+      width: 1rem !important;
+      height: 1rem !important;
+      border: 0.3rem solid white;
+      background-color: white;
+    }
+    .carousel-indicators {
+      .active {
+        background-color: transparent;
+      }
+    }
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: 2rem;
+    background-color: gray;
+    display: none;
+  }
+}

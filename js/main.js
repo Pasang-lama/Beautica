@@ -1,0 +1,9 @@
+$(window).onScroll(function(){
+    if($(this).scrollTop()>150)
+    {
+       $(".nav-bar").addClass(".Sticky-nab-bar")
+    }
+    else{
+        $(".nav-bar").removeClass(".Sticky-nab-bar")
+    }
+});
