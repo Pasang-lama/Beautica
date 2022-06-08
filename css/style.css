@@ -4,31 +4,26 @@
 .banner-slider:hover .carousel-control-prev-icon {
   display: inline-block;
 }
-
 .banner-slider .carousel {
   position: relative;
   margin-top: -0.5rem;
 }
-
 .banner-slider .carousel .carousel-item .pup-up {
   position: absolute;
   bottom: 10rem;
   left: 40rem;
 }
-
 .banner-slider .carousel .carousel-item .pup-up .main-division {
   height: 30rem;
   width: 55rem;
   text-align: center;
   position: relative;
 }
-
 .banner-slider .carousel .carousel-item .pup-up .main-division h1 {
   font-size: 5rem;
   font-weight: bold;
   padding: 3rem;
 }
-
 .banner-slider .carousel .carousel-item .pup-up .shop {
   position: absolute;
   left: 19rem;
@@ -44,11 +39,9 @@
   font-weight: bolder;
   border: none;
 }
-
 .banner-slider .carousel .carousel-item .pup-up .shop:hover {
   background-color: #e7040f;
 }
-
 .banner-slider .carousel .carousel-item .description {
   padding: 2rem;
   width: 40rem;
@@ -56,22 +49,19 @@
   left: 75rem;
   bottom: 15rem;
 }
-
 .banner-slider .carousel .carousel-item .description h1 {
   font-size: 4rem;
   font-weight: bolder;
   margin-bottom: 2rem;
   text-align: center;
 }
-
 .banner-slider .carousel .carousel-item .description p {
   margin: 2rem 0rem;
   text-align: center;
   font-size: 2rem;
   line-height: 3rem;
-  color: #251e1e;
+  color: rgb(37, 30, 30);
 }
-
 .banner-slider .carousel .carousel-item .description button {
   color: white;
   background-color: black;
@@ -85,15 +75,12 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .banner-slider .carousel .carousel-item .description button:hover {
   background-color: #e7040f;
 }
-
 .banner-slider .carousel img {
   height: 50rem;
 }
-
 .banner-slider .carousel .carousel-indicators [data-bs-target] {
   border-radius: 50%;
   width: 1rem !important;
@@ -101,11 +88,9 @@
   border: 0.3rem solid white;
   background-color: white;
 }
-
 .banner-slider .carousel .carousel-indicators .active {
   background-color: transparent;
 }
-
 .banner-slider .carousel-control-next-icon,
 .banner-slider .carousel-control-prev-icon {
   width: 2rem;
@@ -124,12 +109,10 @@
   font-weight: 500;
   padding: 0rem 1rem;
 }
-
 .top-header-middle a {
   text-decoration: none;
   color: white;
 }
-
 .top-header-middle a:hover {
   color: white;
 }
@@ -137,7 +120,6 @@
 .dropdown {
   position: relative;
 }
-
 .dropdown .btn {
   border-radius: 0rem;
   text-decoration: none;
@@ -148,18 +130,15 @@
   vertical-align: baseline;
   font-weight: 500;
 }
-
 .dropdown .btn img {
   margin-right: 1rem;
 }
-
 .dropdown .btn:hover,
 .dropdown .btn :focus {
   background-color: transparent;
   border: none;
   color: white;
 }
-
 .dropdown .btn:focus {
   color: #fff;
   background-color: none;
@@ -168,13 +147,11 @@
           box-shadow: none;
   box-shadow: none !important;
 }
-
 .dropdown .dropdown-menu {
   text-decoration: none;
   min-width: 15rem;
   font-weight: bold;
 }
-
 .dropdown .dropdown-menu img {
   padding: 0.5rem;
 }
@@ -182,11 +159,9 @@
 .header-middle {
   padding-top: 3rem;
 }
-
 .header-middle .search {
   position: relative;
 }
-
 .header-middle input {
   width: 25rem;
   height: 4rem;
@@ -194,25 +169,21 @@
   margin-top: 2rem;
   font-size: 1.8rem;
 }
-
 .header-middle .bi-search {
   position: absolute;
   left: 2rem;
   top: 2.7rem;
   font-size: 1.8rem;
 }
-
 .header-middle .right-section ul {
   list-style: none;
   margin-bottom: -1rem;
 }
-
 .header-middle .right-section ul li {
   display: inline-block;
   padding: 1rem;
   position: relative;
 }
-
 .header-middle .right-section ul li .number {
   position: absolute;
   top: 1rem;
@@ -224,22 +195,18 @@
   padding: 0.8rem 1.3rem;
   color: white;
 }
-
 .header-middle .right-section ul li i {
   font-size: 4rem;
   margin-left: 1rem;
 }
-
 .header-middle .right-section ul li i:hover {
   color: #e7040f;
 }
-
 .header-middle .right-section ul li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
-
 .header-middle .right-section ul li a:hover {
   color: #e7040f;
 }
@@ -247,14 +214,12 @@
 nav ul {
   list-style: none;
 }
-
 nav ul li {
   display: inline-block;
   padding: 2rem;
   font-size: 1.6rem;
   font-weight: bold;
 }
-
 nav ul li:hover {
   color: #e7040f;
 }
@@ -270,22 +235,18 @@ nav ul li:hover {
   margin: 2rem;
   overflow: hidden;
 }
-
 .section-image:hover img {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
-
 .section-image:hover p {
   text-decoration: underline;
 }
-
 .section-image img {
   width: 100%;
   -webkit-transition: 0.9s;
   transition: 0.9s;
 }
-
 .section-image p {
   position: absolute;
   left: 10rem;
@@ -299,26 +260,21 @@ nav ul li:hover {
   position: relative;
   margin: 1rem 0rem;
 }
-
 .new_arrive .items img {
   display: block;
   width: 100%;
 }
-
 .new_arrive .items .front-img {
   display: block;
 }
-
 .new_arrive .items .back-img {
   display: none;
 }
-
 .new_arrive .items .price {
   position: absolute;
   left: 0%;
   top: 0%;
 }
-
 .new_arrive .items .heart {
   position: absolute;
   right: 0%;
@@ -326,7 +282,6 @@ nav ul li:hover {
   font-size: 3rem;
   display: none;
 }
-
 .new_arrive .items .view {
   display: none;
   position: absolute;
@@ -336,14 +291,12 @@ nav ul li:hover {
   font-weight: bold;
   background-color: white;
 }
-
 .new_arrive .items .view:hover {
   background-color: black;
   color: white;
   -webkit-box-shadow: 0px 2px 12px 0px #888888;
           box-shadow: 0px 2px 12px 0px #888888;
 }
-
 .new_arrive .items .choose {
   display: none;
   text-align: center;
@@ -351,48 +304,37 @@ nav ul li:hover {
   background-color: black;
   color: white;
 }
-
 .new_arrive .items .choose:hover {
   background-color: #e7040f;
 }
-
 .new_arrive .items .image-description p {
   font-size: 1rem;
 }
-
 .new_arrive .items .image-description p:hover {
   color: #e90188;
 }
-
 .new_arrive .items .image-description .price-tag {
   font-size: 1rem;
 }
-
 .new_arrive .items .image-description .rating {
   display: none;
 }
-
 .new_arrive .items:hover {
   -webkit-box-shadow: 0px 2px 12px 0px #888888;
           box-shadow: 0px 2px 12px 0px #888888;
 }
-
 .new_arrive .items:hover .front-img {
   display: none;
 }
-
 .new_arrive .items:hover .back-img {
   display: block;
 }
-
 .new_arrive .items:hover .heart {
   display: block;
 }
-
 .new_arrive .items:hover .image-description .rating {
   display: block;
 }
-
 .new_arrive .items:hover .choose,
 .new_arrive .items:hover .view {
   display: inline-block;
@@ -401,15 +343,12 @@ nav ul li:hover {
 .left-right {
   margin: 2rem 2rem 4rem 2rem;
 }
-
 .left-right .section .images {
   position: relative;
 }
-
 .left-right .section .images img {
   display: block;
 }
-
 .left-right .section .images .shop {
   background-color: black;
   color: white;
@@ -419,7 +358,6 @@ nav ul li:hover {
   left: 35%;
   padding: 1rem 6rem;
 }
-
 .left-right .section .images .shop:hover {
   background-color: #e7040f;
 }
@@ -432,7 +370,6 @@ nav ul li:hover {
 .gallary-image img {
   position: relative;
 }
-
 .gallary-image .liked {
   opacity: 0;
   position: absolute;
@@ -441,13 +378,11 @@ nav ul li:hover {
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
-
 .gallary-image .liked i {
   background-color: #e7040f;
   color: white;
   border-radius: 10%;
 }
-
 .gallary-image:hover::after {
   top: 4%;
   left: 4%;
@@ -455,14 +390,12 @@ nav ul li:hover {
   right: 4%;
   opacity: 1;
 }
-
 .gallary-image:hover .liked {
   display: block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   opacity: 1;
 }
-
 .gallary-image::after {
   position: absolute;
   top: 0%;
@@ -487,21 +420,17 @@ nav ul li:hover {
 footer ul {
   list-style: none;
 }
-
 footer ul li {
   padding: 0.4rem;
 }
-
 footer ul li h4 {
   margin-bottom: 2rem;
 }
-
 footer ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
-
 footer ul li a:hover {
   text-decoration: underline;
   color: white;
@@ -511,11 +440,9 @@ footer ul li a:hover {
   margin-left: -3rem;
   list-style: none;
 }
-
 .social-media ul li {
   display: inline;
 }
-
 .social-media ul li a {
   text-decoration: none;
   background-color: white;
@@ -524,22 +451,18 @@ footer ul li a:hover {
   border-radius: 50%;
   padding: 0.5rem 0.79rem;
 }
-
 .social-media ul li:hover .facebook {
   background-color: #1b74e4;
   color: white;
 }
-
 .social-media ul li:hover .twitter {
   background-color: #5da9dd;
   color: white;
 }
-
 .social-media ul li:hover .pint {
   background-color: #b7081b;
   color: white;
 }
-
 .social-media ul li:hover .insta {
   background-color: #f14e42;
   color: white;
@@ -554,7 +477,6 @@ footer ul li a:hover {
   border: solid white 0.14rem;
   border-radius: 0.2rem 0rem 0rem 0.2rem;
 }
-
 .input-suscribe button {
   height: 3.409rem;
   width: 10rem;
@@ -569,7 +491,6 @@ footer ul li a:hover {
 .payement-partner {
   text-align: center;
 }
-
 .payement-partner i {
   font-size: 5rem;
   padding: 0.3rem;
@@ -585,5 +506,4 @@ footer ul li a:hover {
 html {
   font-size: 63.5%;
   font-family: "Arimo", sans-serif;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
